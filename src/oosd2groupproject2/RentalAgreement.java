@@ -12,3 +12,4 @@ package oosd2groupproject2;
 public class RentalAgreement {
     
 }
+
