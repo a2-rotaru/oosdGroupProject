@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="oosd2groupproject2.LoginViewController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="360.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@UWE_logo.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="usernameField" layoutX="224.0" layoutY="153.0" promptText="Username" />
+      <PasswordField fx:id="passwordField" layoutX="227.0" layoutY="210.0" promptText="Password" />
+      <Button layoutX="273.0" layoutY="290.0" mnemonicParsing="false" onAction="#Login" text="LogIn" />
+      <Text layoutX="25.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UWE Bristol Accommodation System" wrappingWidth="254.83462524414062" />
+   </children>
+</AnchorPane>
