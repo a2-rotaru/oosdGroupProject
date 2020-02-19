@@ -22,7 +22,7 @@ import oosd2groupproject2.Room;
 import oosd2groupproject2.Student;
 import oosd2groupproject2.UWEAccommodationSystem;
 import oosd2groupproject2.Warden;
-import oosd2groupproject2.status;
+import oosd2groupproject2.Status;
 
 /**
  *
@@ -50,7 +50,7 @@ public ArrayList<Hall> hallArray = new ArrayList<Hall>();
     @Override
     public void start(Stage primaryStage) {
         Button btn = new Button();
-        btn.setText("Say 'Hello Wor  ld'");
+        btn.setText("Say 'Hello World'");
         btn.setOnAction(new EventHandler<ActionEvent>() {
             
             @Override
@@ -64,7 +64,7 @@ public ArrayList<Hall> hallArray = new ArrayList<Hall>();
         
         Scene scene = new Scene(root, 300, 250);
         
-        primaryStage.setTitle("Hello World!hh");
+        primaryStage.setTitle("Hello World!");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
