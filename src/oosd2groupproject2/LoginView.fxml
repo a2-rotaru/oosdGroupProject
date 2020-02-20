@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
@@ -8,17 +9,17 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="oosd2groupproject2.LoginViewController">
+<AnchorPane id="AnchorPane" fx:id="label" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oosd2groupproject2.LoginViewController">
    <children>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="360.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="300.0" fitWidth="200.0" layoutX="100.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@UWE_logo.jpg" />
          </image>
       </ImageView>
-      <TextField fx:id="usernameField" layoutX="224.0" layoutY="153.0" promptText="Username" />
-      <PasswordField fx:id="passwordField" layoutX="227.0" layoutY="210.0" promptText="Password" />
-      <Button layoutX="273.0" layoutY="290.0" mnemonicParsing="false" onAction="#Login" text="LogIn" />
+      <TextField fx:id="usernameField" layoutX="124.0" layoutY="218.0" promptText="Username" />
+      <PasswordField fx:id="passwordField" layoutX="124.0" layoutY="272.0" promptText="Password" />
+      <Button alignment="CENTER" layoutX="173.0" layoutY="324.0" mnemonicParsing="false" onAction="#Login" text="Login" />
       <Text layoutX="25.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UWE Bristol Accommodation System" wrappingWidth="254.83462524414062" />
+      <Label fx:id="labelField" contentDisplay="RIGHT" layoutX="111.0" layoutY="177.0" prefHeight="18.0" prefWidth="178.0" text="Login to access the system" textAlignment="CENTER" wrapText="true" />
    </children>
 </AnchorPane>
