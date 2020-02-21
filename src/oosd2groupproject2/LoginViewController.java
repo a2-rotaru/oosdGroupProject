@@ -29,7 +29,7 @@ import javafx.stage.Stage;
 public class LoginViewController implements Initializable {
 
     /**
-     * Initializes the controller class.
+     * initialises the controller class.
      */
     
     @FXML

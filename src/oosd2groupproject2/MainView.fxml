@@ -14,14 +14,15 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="533.0" prefWidth="807.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oosd2groupproject2.MainViewController">
+<AnchorPane id="AnchorPane" prefHeight="536.0" prefWidth="990.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oosd2groupproject2.MainViewController">
    <children>
-      <GridPane layoutY="282.0" prefHeight="248.0" prefWidth="766.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="282.0">
+      <GridPane layoutY="281.0" prefHeight="255.0" prefWidth="990.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="281.0">
         <columnConstraints>
-          <ColumnConstraints hgrow="SOMETIMES" maxWidth="215.0" minWidth="10.0" prefWidth="215.0" />
           <ColumnConstraints hgrow="SOMETIMES" maxWidth="233.0" minWidth="10.0" prefWidth="233.0" />
-            <ColumnConstraints hgrow="SOMETIMES" maxWidth="219.0" minWidth="10.0" prefWidth="175.0" />
-            <ColumnConstraints hgrow="SOMETIMES" maxWidth="172.0" minWidth="10.0" prefWidth="129.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="254.0" minWidth="10.0" prefWidth="218.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="253.0" minWidth="10.0" prefWidth="250.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="209.0" minWidth="10.0" prefWidth="169.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="172.0" minWidth="10.0" prefWidth="120.0" />
         </columnConstraints>
         <rowConstraints>
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
@@ -35,22 +36,22 @@
          <children>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Hall Information" />
             <Label prefHeight="18.0" prefWidth="73.0" text="Hall" GridPane.halignment="LEFT" GridPane.rowIndex="1" />
-            <ComboBox fx:id="hallBox" prefHeight="28.0" prefWidth="168.0" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
+            <ComboBox fx:id="hallBox" prefHeight="25.0" prefWidth="156.0" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
             <Label text="Address" GridPane.halignment="LEFT" GridPane.rowIndex="2" />
-            <TextField fx:id="addressBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="41.0" prefWidth="161.0" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
-            <TextField fx:id="telephoneBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="132.0" GridPane.halignment="RIGHT" GridPane.rowIndex="3" />
+            <TextField fx:id="addressBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="41.0" prefWidth="155.0" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+            <TextField fx:id="telephoneBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="155.0" GridPane.halignment="RIGHT" GridPane.rowIndex="3" />
             <Label text="Telephone No" GridPane.rowIndex="3" />
             <Label text="Hall No." GridPane.halignment="LEFT" GridPane.rowIndex="4" />
             <Label text="No. of rooms" GridPane.halignment="LEFT" GridPane.rowIndex="5" />
             <Label text="Warden:" GridPane.halignment="LEFT" GridPane.rowIndex="6" />
-            <TextField fx:id="hallNoBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="157.0" GridPane.halignment="RIGHT" GridPane.rowIndex="4" />
-            <TextField fx:id="no_roomsBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="136.0" GridPane.halignment="RIGHT" GridPane.rowIndex="5" />
-            <TextField fx:id="wardenBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="161.0" GridPane.halignment="RIGHT" GridPane.rowIndex="6" />
+            <TextField fx:id="hallNoBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="155.0" GridPane.halignment="RIGHT" GridPane.rowIndex="4" />
+            <TextField fx:id="no_roomsBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="156.0" GridPane.halignment="RIGHT" GridPane.rowIndex="5" />
+            <TextField fx:id="wardenBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="159.0" GridPane.halignment="RIGHT" GridPane.rowIndex="6" />
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Student Information" GridPane.columnIndex="1" />
             <Label text="First Name" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="1" />
             <Label text="Last Name" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="2" />
             <Label text="Student ID" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="3" />
-            <TextField fx:id="firstnameBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="157.0" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
+            <TextField fx:id="firstnameBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="154.0" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
             <TextField fx:id="lastnameBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="154.0" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
             <TextField fx:id="studentIDBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="154.0" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="3" />
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Room Information" GridPane.columnIndex="2" />
@@ -58,9 +59,9 @@
             <Label prefHeight="18.0" prefWidth="77.0" text="Montly Rate" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.rowIndex="2" />
             <Label text="Cleaning Status" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.rowIndex="3" />
             <Label text="Status" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-            <TextField fx:id="roomNoBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="93.0" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
-            <TextField fx:id="rateBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="87.0" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
-            <ComboBox fx:id="cleaningBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="87.0" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="3" />
+            <TextField fx:id="roomNoBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="117.0" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
+            <TextField fx:id="rateBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="118.0" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+            <ComboBox fx:id="cleaningBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="142.0" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="3" />
             <ComboBox fx:id="statusBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="142.0" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="4" />
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Lease Information" wrappingWidth="133.4296875" GridPane.columnIndex="3" />
             <Label prefHeight="36.0" prefWidth="60.0" text="Lease ID" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="1" />
@@ -68,21 +69,22 @@
             <Button mnemonicParsing="false" onAction="#createLease" text="Create Lease" GridPane.columnIndex="3" GridPane.rowIndex="5" />
             <Button mnemonicParsing="false" onAction="#deleteLease" text="Delete Lease" GridPane.columnIndex="3" GridPane.rowIndex="6" />
             <Button mnemonicParsing="false" onAction="#applyChanges" text="Apply Changes" GridPane.columnIndex="2" GridPane.rowIndex="6" />
-            <TextField fx:id="leaseIDBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="84.0" GridPane.columnIndex="3" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
-            <TextField fx:id="durationBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="85.0" GridPane.columnIndex="3" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+            <TextField fx:id="leaseIDBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="111.0" GridPane.columnIndex="3" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
+            <TextField fx:id="durationBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="111.0" GridPane.columnIndex="3" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#logout" prefHeight="34.0" prefWidth="82.0" text="Logout" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.rowIndex="6" />
          </children>
       </GridPane>
-      <TabPane layoutY="-1.0" prefHeight="283.0" prefWidth="794.0" tabClosingPolicy="UNAVAILABLE">
+      <TabPane layoutY="-2.0" prefHeight="284.0" prefWidth="990.0" tabClosingPolicy="UNAVAILABLE">
         <tabs>
           <Tab fx:id="tabManager" text="Manager">
                <content>
                   <TableView minHeight="-Infinity" minWidth="-Infinity" prefHeight="218.0" prefWidth="775.0">
                     <columns>
-                      <TableColumn fx:id="columnFirstName" prefWidth="130.0" text="First Name" />
-                      <TableColumn fx:id="columnLastName" prefWidth="152.0" text="Last Name" />
-                        <TableColumn fx:id="columnStudentID" prefWidth="159.0" text="Student ID" />
-                        <TableColumn fx:id="columnHall" prefWidth="185.0" text="Hall" />
-                        <TableColumn fx:id="columnRoomNo" prefWidth="156.0" text="Room No" />
+                      <TableColumn fx:id="columnFirstName" prefWidth="169.0" text="First Name" />
+                      <TableColumn fx:id="columnLastName" prefWidth="180.0" text="Last Name" />
+                        <TableColumn fx:id="columnStudentID" prefWidth="192.0" text="Student ID" />
+                        <TableColumn fx:id="columnHall" prefWidth="245.0" text="Hall" />
+                        <TableColumn fx:id="columnRoomNo" prefWidth="204.0" text="Room No" />
                     </columns>
                   </TableView>
                </content>
@@ -91,10 +93,10 @@
                <content>
                   <TableView prefHeight="210.0" prefWidth="625.0">
                     <columns>
-                      <TableColumn fx:id="columnFirstName" prefWidth="170.0" text="First Name" />
-                      <TableColumn fx:id="columnLastName" prefWidth="179.0" text="Last Name" />
-                        <TableColumn fx:id="columnRoomNo" prefWidth="188.0" text="Room Number" />
-                        <TableColumn fx:id="columnStatus" prefWidth="257.0" text="Status" />
+                      <TableColumn fx:id="columnFirstName" prefWidth="216.0" text="First Name" />
+                      <TableColumn fx:id="columnLastName" prefWidth="235.0" text="Last Name" />
+                        <TableColumn fx:id="columnRoomNo" prefWidth="233.0" text="Room Number" />
+                        <TableColumn fx:id="columnStatus" prefWidth="306.0" text="Status" />
                     </columns>
                   </TableView>
                </content>
