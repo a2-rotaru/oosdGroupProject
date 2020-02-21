@@ -20,6 +20,10 @@ public class Warden {
         this.name = new SimpleStringProperty(name);
         this.password = password;
     }
+
+    Warden(String alex_Spurell) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     //return the name
     public String getName() {

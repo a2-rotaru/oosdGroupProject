@@ -35,6 +35,10 @@ public class Room {
     Room() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+
+    Room(int i, int i0) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     public int getRoomNumber() {
 		return roomNumber.get();
 	}

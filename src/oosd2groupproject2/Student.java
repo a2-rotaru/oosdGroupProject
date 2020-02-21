@@ -27,6 +27,10 @@ public class Student {
     public Room room = new Room();
     public RentalAgreement rentalAgreement = new RentalAgreement();
     
+    public Student(){
+        this(null, null, null, null,null);
+    }
+    
     //
     public Student(String studentFirstName, String studentLastName, String studentID, Room room, RentalAgreement rentalAgreement){
         this.studentFirstName = new SimpleStringProperty(studentFirstName);

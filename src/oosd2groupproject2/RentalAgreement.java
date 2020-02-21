@@ -49,10 +49,14 @@ public class RentalAgreement {
         this.tenantRoomNumber = new SimpleIntegerProperty(tenantRoomNumber);
         
     }
-
-    RentalAgreement() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    
+    public RentalAgreement(){
+        this(null, null, null, null, null, 0 , 0 );
     }
+
+    /*RentalAgreement() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    } */
     
     
     //Used to get the renatl agreement ID

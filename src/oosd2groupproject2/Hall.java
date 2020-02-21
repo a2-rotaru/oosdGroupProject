@@ -21,19 +21,29 @@ public class Hall {
     private IntegerProperty hallNumber;
     private final StringProperty address;
     private final IntegerProperty totalRooms;
+    private final StringProperty telephoneNumber;
     public Warden warden;
-   // public ObservableList<Student> studentList;
+    public ObservableList<Student> studentList;
     
     //Set constructor 
-    public Hall(String name, int hallNumber,int totalRooms, String address, Warden warden) {
+    public Hall(String name, int hallNumber,int totalRooms, String telephoneNumber,String address, Warden warden) {
         this.name = new SimpleStringProperty(name);
 	this.hallNumber = new SimpleIntegerProperty(hallNumber);
+        this.telephoneNumber = new SimpleStringProperty(telephoneNumber);
 	this.address = new SimpleStringProperty(address);
 	this.warden = warden;
 	this.totalRooms = new SimpleIntegerProperty(totalRooms);
-	//this.studentList = FXCollections.observableArrayList();
+	this.studentList = FXCollections.observableArrayList();
        
         
+    }
+    
+    public Hall(){
+        this (null, 0,0,null,null,null);
+    }
+
+    Hall(String glenside, int i, int i0, String blackberry_Hill_Bs16_1DD, Warden warden) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
    
     //Getter for name
@@ -76,6 +86,14 @@ public class Hall {
     public void setHallNumber(int hallNumber) {
 		this.hallNumber.set(hallNumber);
 	}
+    
+    public String getTelephoneNumber(){
+        return telephoneNumber.get();
+    }
+    
+    public void setTelephoneNumber(String telephoneNumber){
+        this.telephoneNumber.set(telephoneNumber);
+    }
     
     
 }
