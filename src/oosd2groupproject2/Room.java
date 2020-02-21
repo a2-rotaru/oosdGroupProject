@@ -19,14 +19,14 @@ public class Room {
     
     private final IntegerProperty roomNumber;
     private final IntegerProperty rent;
-    public Status status;
+    //public Status status;
     public RentalAgreement rentalAgreement;
     
     //Set constructor 
-    public Room(int roomNumber, int rent, Status status, RentalAgreement rentalAgreement) {
+    public Room(int roomNumber, int rent, RentalAgreement rentalAgreement) {
 	this.roomNumber = new SimpleIntegerProperty(roomNumber);
 	this.rent = new SimpleIntegerProperty(rent);
-	this.status = status;
+	//this.status = status;
         this.rentalAgreement = rentalAgreement;
        
         
@@ -43,13 +43,13 @@ public class Room {
 		this.roomNumber.set(roomNumber);
 	}
     
-    public Status getStatus() {
+   /* public Status getStatus() {
 		return status;
 	}
     
     public void setStatus(Status status) {
 		this.status = status;
-	}
+	} */
     
     public float getRent() {
 		return rent.get();
