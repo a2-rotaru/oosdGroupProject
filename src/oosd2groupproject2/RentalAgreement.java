@@ -37,8 +37,8 @@ public class RentalAgreement {
     
     
     public RentalAgreement(String rentalAgreementID, String tenantAddress, 
-            String studentFirstName, String studentLastName, 
-            String studentID, int tenancyDuration, int tenantRoomNumber  ){
+        String studentFirstName, String studentLastName, 
+        String studentID, int tenancyDuration, int tenantRoomNumber  ){
         
         this.rentalAgreementID = new SimpleStringProperty(rentalAgreementID);
         this.studentFirstName = new SimpleStringProperty(studentFirstName);
@@ -52,9 +52,11 @@ public class RentalAgreement {
     
     public RentalAgreement(){
         this(null, null, null, null, null, 0 , 0 );
-    }
+    } 
 
-    /*RentalAgreement() {
+ 
+
+   /* RentalAgreement() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     } */
     

@@ -40,7 +40,7 @@ public class Hall {
     
     public Hall(){
         this (null, 0,0,null,null,null);
-    }
+    } 
 
     Hall(String glenside, int i, int i0, String blackberry_Hill_Bs16_1DD, Warden warden) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.

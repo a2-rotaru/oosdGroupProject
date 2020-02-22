@@ -32,7 +32,7 @@ import oosd2groupproject2.Warden;
  */
 public class MainApplication extends Application{
     
-public ArrayList<Hall> hallArray = new ArrayList<Hall>();
+public ArrayList<Hall> hallArray = new ArrayList<>();
     //Manager Manager = new Manager("Jon Snow" , "password");
     Hall hall1;
     Hall hall2;
@@ -40,7 +40,7 @@ public ArrayList<Hall> hallArray = new ArrayList<Hall>();
     
     
     public MainApplication() {
-        this.hall1 = new Hall("Frenchay" , 1, 450, "07578994332" , "Filton Road, Bs16 1ZG",new Warden("Alex-Spurell","wardenAlex"));
+       /* this.hall1 = new Hall("Frenchay" , 1, 450, "07578994332" , "Filton Road, Bs16 1ZG",new Warden("Alex-Spurell","wardenAlex"));
         this.hall3 = new Hall("Student Village", 3, 550, "07534227998","307 Coldharbour Ln. Bs16 1ZH", new Warden("Connor-Gee","wardenConnor"));
         this.hall2 = new Hall("Glenside", 2, 400,"07598335298", "Blackberry Hill, Bs16 1DD", new Warden("Ash-Brian", "wardenAsh"));
         //Create hall Array, initialise halls and add some data
@@ -61,16 +61,10 @@ public ArrayList<Hall> hallArray = new ArrayList<Hall>();
         hall3.studentList.addAll(new Student("Laura","Sakalyte", "164893", new Room(45, 560), new RentalAgreement("S189304" ,"307 Coldharbour Ln. Bs16 1ZH", "Laura",
         "Sakalyte", "164893", 12,45 )),new Student("Alexandra ","Rotaru", "17024831", new Room(17, 550), new RentalAgreement("S894745" ,"307 Coldharbour Ln. Bs16 1ZH", 
         "Alexandra ","Rotaru", "17024831", 12,17 )),new Student("Irina","Burcus", "1564446", new Room(18, 500), new RentalAgreement("S606969" ,"307 Coldharbour Ln. Bs16 1ZH", 
-        "Irina","Burcus", "1564446", 12,18 )));
-        
-        
-        
-        
-        
-        
-                                
-                
-    } 
+        "Irina","Burcus", "1564446", 12,18 ))); */
+         
+       
+    }  
     
     @Override
     public void start(Stage stage) throws Exception {
